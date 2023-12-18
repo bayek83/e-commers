@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GREENMIND</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" href="images/plant.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <div class="nav-logo">
+        <a href="#">GREENMIND</a>
+      </div>
+      <div class="nav-link">
+        <ul>
+          <li>
+            <a href="#" class="link active">Home</a>
+          </li>
+          <li>
+            <a href="#" class="link">Products</a>
+          </li>
+          <li>
+            <a href="#" class="link">Contacts</a>
+          </li>
+        </ul>
+      </div>
+      <div class="sign">
+        <a href="#" id="cart-shop"><img src="images/Cart.png" alt="cart" /></a>
+        <div class="akunBar">
+          <a href="#" id="akun"><img src="images/Person.png" alt="person" /></a>
+        </div>
+        <a href="#" id="menu"><img src="images/Vector.png" alt="menu" /></a>
+      </div>
+      <div class="cart-shop-nice">
+        <div class="cart-container">
+          <h2>Your Cart</h2>
+          <div class="content-cart">
+            <img src="images/card/plant-1.png" alt="card-1" />
+            <div class="cart-body">
+              <div class="text">
+                <h4>Artificial Plants</h4>
+                <span>$400</span>
+              </div>
+              <div class="count">
+                <button class="min">-</button>
+                <span class="numor">00</span>
+                <button class="plus">+</button>
+              </div>
+            </div>
+            <i class="bi bi-x btn-close-cart"></i>
+          </div>
+          <div class="content-cart">
+            <img src="images/card/plant-2.png" alt="card-1" />
+            <div class="cart-body">
+              <div class="text">
+                <h4>Artificial Plants</h4>
+                <span>$300</span>
+              </div>
+              <div class="count">
+                <button class="min">-</button>
+                <span class="numor">00</span>
+                <button class="plus">+</button>
+              </div>
+            </div>
+            <i class="bi bi-x btn-close-cart"></i>
+          </div>
+          <div class="content-cart">
+            <img src="images/card/plant-3.png" alt="card-1" />
+            <div class="cart-body">
+              <div class="text">
+                <h4>Artificial Plants</h4>
+                <span>$400</span>
+              </div>
+              <div class="count">
+                <button class="min">-</button>
+                <span class="numor">00</span>
+                <button class="plus">+</button>
+              </div>
+            </div>
+            <i class="bi bi-x btn-close-cart"></i>
+          </div>
+          <div class="content-cart">
+            <img src="images/card/plant-4.jpg" alt="card-1" />
+            <div class="cart-body">
+              <div class="text">
+                <h4>Artificial Plants</h4>
+                <span>$600</span>
+              </div>
+              <div class="count">
+                <button class="min">-</button>
+                <span class="numor">00</span>
+                <button class="plus">+</button>
+              </div>
+            </div>
+            <i class="bi bi-x btn-close-cart"></i>
+          </div>
+          <div class="sub-total">
+            <div class="total">
+              <h5>Subtotal</h5>
+              <span>$200</span>
+            </div>
+            <button type="button" id="checkout">Checkout</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- account -->
+    <div class="akun">
+      <form id="form">
+        <img src="images/plant.png" alt="logo" />
+        <div>
+          <label for="userName">Username</label>
+          <input type="text" id="userName" name="userName" />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" />
+        </div>
+        <div>
+          <label for="Password">Password</label>
+          <input type="password" id="password" name="password" />
+        </div>
+        <div>
+          <button type="submit" id="btn">Register</button>
+        </div>
+        <a href="#">have a account</a>
+      </form>
+    </div>
+    <!-- navbar end -->
+    <!-- hero start -->
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="left">
+          <h1>Buy your dream plants</h1>
+          <div class="flow">
+            <div class="species nice">
+              <h3 class="num" data-val="255">00</h3>
+              <span>Plant Species</span>
+            </div>
+            <div class="species">
+              <h3 class="num" data-val="100">00</h3>
+              <span>Customers</span>
+            </div>
+          </div>
+          <div class="search">
+            <input
+              type="search"
+              id="search"
+              name="search"
+              placeholder="What are you looking for?"
+            />
+            <button><img src="images/Search.png" alt="search" /></button>
+          </div>
+        </div>
+        <div class="right">
+          <img src="images/hero.png" alt="hero" class="hero-img" />
+          <img src="images/hero-2.png" alt="hero" class="hero-img4" />
+          <img src="images/arrow-1.png" alt="hero" class="hero-img2" />
+          <img src="images/arrow-2.png" alt="hero" class="hero-img3" />
+        </div>
+      </div>
+    </section>
+    <!-- hero end -->
+
+    <!-- best start -->
+    <section id="best" class="best">
+      <div class="container">
+        <div class="row">
+          <div class="selling">
+            <h2>Best Selling Plants</h2>
+            <p>Easiest way to healthy life by buying your favorite plants</p>
+            <a href="#"
+              >See more <img src="images/ArrowRight.png" alt="arrow"
+            /></a>
+          </div>
+          <div class="plants">
+            <div class="card">
+              <img src="images/card/plant-3.png" alt="plants" />
+              <div class="card-body">
+                <h3>Natural Plants</h3>
+                <div class="bot">
+                  <span>$400</span>
+                  <div class="bot-child">
+                    <a href="#" class="item-detail-button"
+                      ><i class="bi bi-eye"></i
+                    ></a>
+                    <i class="bi bi-bag"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/card/plant-4.jpg" alt="plants" />
+              <div class="card-body">
+                <h3>Artificial Plants</h3>
+                <div class="bot">
+                  <span>$500</span>
+                  <div class="bot-child">
+                    <a href="#" class="item-detail-button"
+                      ><i class="bi bi-eye"></i
+                    ></a>
+                    <i class="bi bi-bag"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/card/plant-1.png" alt="plants" />
+              <div class="card-body">
+                <h3>Artificial Plants</h3>
+                <div class="bot">
+                  <span>$900</span>
+                  <div class="bot-child">
+                    <a href="#" class="item-detail-button"
+                      ><i class="bi bi-eye"></i
+                    ></a>
+                    <i class="bi bi-bag"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <img src="images/card/plant-2.png" alt="plants" />
+              <div class="card-body">
+                <h3>Artificial Plants</h3>
+                <div class="bot">
+                  <span>$900</span>
+                  <div class="bot-child">
+                    <a href="#" class="item-detail-button"
+                      ><i class="bi bi-eye"></i
+                    ></a>
+                    <i class="bi bi-bag"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="modal" id="modal">
+              <div class="modal-container">
+                <div class="modal-content">
+                  <a href="#" class="close"><i class="bi bi-x"></i></a>
+                  <img src="images/card/plant-4.jpg" alt="img" />
+                  <div class="product-content">
+                    <div class="text-header">
+                      <h4>Artificial Plants</h4>
+                      <span class="top"
+                        >Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit.</span
+                      >
+                    </div>
+                    <div class="text-mid">
+                      <span class="mid">Description</span>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Enim dolorem debitis nesciunt sit recusandae ut
+                        praesentium accusantium, perspiciatis atque pariatur
+                        quia a necessitatibus ducimus? Nam doloribus
+                        consequuntur repudiandae laudantium distinctio.
+                      </p>
+                    </div>
+                    <div class="bot">
+                      <span class="bottt">$400</span>
+                      <a href="#"> <i class="bi bi-bag"></i> Add to cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- best end -->
+
+    <!-- about start -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="header-about">
+          <h2>About us</h2>
+          <span>Order now and appreciate the beauty of nature</span>
+        </div>
+        <div class="content-about">
+          <div class="card-about">
+            <div class="card-header">
+              <img src="images/about/about-1.png" alt="about" />
+            </div>
+            <div class="body-card">
+              <h3>Large Assortment</h3>
+              <p>
+                we offer many different types of products with fewer variations
+                in each category.
+              </p>
+            </div>
+          </div>
+          <div class="card-about">
+            <div class="card-header">
+              <img src="images/about/about-2.png" alt="about" />
+            </div>
+            <div class="body-card">
+              <h3>Fast & Free Shipping</h3>
+              <p>
+                4-day or less delivery time, free shipping and an expedited
+                delivery option.
+              </p>
+            </div>
+          </div>
+          <div class="card-about">
+            <div class="card-header">
+              <img src="images/about/about-3.png" alt="about" />
+            </div>
+            <div class="body-card">
+              <h3>24/7 Support</h3>
+              <p>
+                answers to any business related inquiry 24/7 and in real-time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about end -->
+    <!-- categories start -->
+    <section id="categories" class="categories">
+      <div class="container">
+        <div class="header-categories">
+          <h2>Categories</h2>
+          <span>Find what you are looking for</span>
+        </div>
+        <div class="content-categories">
+          <div class="top-nice">
+            <div class="card-categories top">
+              <div class="card-header">
+                <img
+                  src="images/categories/categories-1.png"
+                  alt="categories"
+                />
+              </div>
+              <div class="body-card">
+                <h3>Natural Plants</h3>
+              </div>
+            </div>
+            <div class="card-categories">
+              <div class="card-header">
+                <img
+                  src="images/categories/categories-2.png"
+                  alt="categories"
+                />
+              </div>
+              <div class="body-card">
+                <h3>Natural Plants</h3>
+              </div>
+            </div>
+            <div class="card-categories top">
+              <div class="card-header">
+                <img
+                  src="images/categories/categories-3.png"
+                  alt="categories"
+                />
+              </div>
+              <div class="body-card">
+                <h3>Natural Plants</h3>
+              </div>
+            </div>
+          </div>
+          <div class="bot-categories">
+            <span
+              >Horem ipsum dolor sit amet, consectetur adipiscing elit.</span
+            >
+            <a href="#"
+              >Explore <img src="images/ArrowRight.png" alt="arrow"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- categories end -->
+
+    <!-- testimoni start -->
+    <section id="testimoni" class="testimoni">
+      <div class="container">
+        <div class="header-testimoni">
+          <h2>What customers say about GREEMIND?</h2>
+          <div class="line">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-2"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="card-testimoni">
+            <img src="images/koma.png" class="koma" alt="koma" />
+            <div class="header-test">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Expedita adipisci possimus, reprehenderit magnam neque eos
+                similique repudiandae quas aspernatur illum.
+              </p>
+            </div>
+            <div class="body-test">
+              <div class="profile">
+                <img src="images/testimoni/user-1.png" alt="user" />
+                <div class="text">
+                  <h4>John Doe</h4>
+                  <span>Youtuber</span>
+                </div>
+              </div>
+              <div class="raiting">
+                <span> <i class="bi bi-star-fill"></i>4.5</span>
+              </div>
+            </div>
+          </div>
+          <div class="card-testimoni">
+            <img src="images/koma.png" class="koma" alt="koma" />
+            <div class="header-test">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Expedita adipisci possimus, reprehenderit magnam neque eos
+                similique repudiandae quas aspernatur illum.
+              </p>
+            </div>
+            <div class="body-test">
+              <div class="profile">
+                <img src="images/testimoni/user-2.png" alt="user" />
+                <div class="text">
+                  <h4>John Doe</h4>
+                  <span>Youtuber</span>
+                </div>
+              </div>
+              <div class="raiting">
+                <span> <i class="bi bi-star-fill"></i>4.5</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- testimoni end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="logo">
+            <div class="top">
+              <h4>GREENMIND</h4>
+            </div>
+            <span
+              >We help you find <br />
+              your dream plant</span
+            >
+            <div class="sosmed">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+              <a href="#"><i class="bi bi-twitter-x"></i></a>
+            </div>
+          </div>
+          <div class="link-bot">
+            <div class="head">
+              <h5>Information</h5>
+              <a href="#">About</a>
+              <a href="#">Products</a>
+              <a href="#">Blog</a>
+            </div>
+            <div class="head">
+              <h5>Company</h5>
+              <a href="#">Community</a>
+              <a href="#">Career</a>
+              <a href="#">Our Story</a>
+            </div>
+            <div class="head">
+              <h5>Contact</h5>
+              <a href="#">Getting Started</a>
+              <a href="#">Pricing</a>
+              <a href="#">Resources</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span class="last-footer"
+        >2023 all Right Reserved Term of use GREENMIND</span
+      >
+    </footer>
+    <!-- footer end -->
+
+    <!-- checkout -->
+    <div class="checkouts nicebro">
+      <div class="container">
+        <div class="content-checkout">
+          <div class="header-checkout">
+            <img src="images/shopping-bag.png" alt="cart" />
+            <h4>Congratulation!</h4>
+          </div>
+          <div class="body-checkout">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur nisi voluptatum nam quas similique aut ab sint
+              officiis hic voluptatem?
+            </p>
+            <h5>12, December 2023</h5>
+          </div>
+          <button class="btn-check" type="submit">Go Shopping again</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
